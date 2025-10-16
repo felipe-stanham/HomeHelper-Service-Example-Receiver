@@ -1,0 +1,10 @@
+[2025-10-16 14:56:05] Message #1: Test message number 1 from manual test
+[2025-10-16 14:56:05] Message #2: Test message number 2 from manual test
+[2025-10-16 14:56:06] Message #3: Test message number 3 from manual test
+[2025-10-16 14:56:06] Message #4: Test message number 4 from manual test
+[2025-10-16 14:56:07] Message #5: Test message number 5 from manual test
+[2025-10-16 14:56:08] Message #6: Test message number 6 from manual test
+[2025-10-16 14:56:08] Message #7: Test message number 7 from manual test
+[2025-10-16 14:56:09] Message #8: Test message number 8 from manual test
+[2025-10-16 14:56:09] Message #9: Test message number 9 from manual test
+[2025-10-16 14:56:10] Message #10: Test message number 10 from manual test
