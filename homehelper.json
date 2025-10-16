@@ -1,0 +1,31 @@
+{
+  "name": "Example Receiver Service",
+  "version": "1.0.0",
+  "description": "Demo service that receives messages from Redis and writes them to rotating files for testing HomeHelper integration",
+  "type": "service",
+  "author": "HomeHelper Team",
+  "main_file": "app.py",
+  "config": {
+    "has_UI": true,
+    "redis_required": true,
+    "logs_dir": true,
+    "data_dir": true,
+    "auto_start": true,
+    "restart_policy": "always"
+  },
+  "events": {
+    "publishes": [],
+    "subscribes": [
+      {
+        "type": "example.message.sent",
+        "description": "Listens for messages from Example Sender Service and writes them to rotating files",
+        "handler": "message_subscriber"
+      }
+    ]
+  },
+  "install": {
+    "setup_commands": [
+      "mkdir -p /opt/homehelper/data/example_receiver/messages"
+    ]
+  }
+}
